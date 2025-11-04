@@ -119,8 +119,60 @@
     {
       "role": "assistant",
       "content": "You have no active tasks."
+    },
+    {
+      "role": "user",
+      "content": "hi whats the weather in delhi?"
+    },
+    {
+      "role": "assistant",
+      "content": "I am sorry, I am not capable of providing weather information. I can only manage to-do tasks."
+    },
+    {
+      "user": "well can you add \"play fifa\"",
+      "assistant": "Task '\"play fifa\"' added successfully!"
+    },
+    {
+      "user": "whats the weather in guwahati",
+      "assistant": "In guwahati, it's mist and around 25\u00b0C."
+    },
+    {
+      "user": "what about delhi?",
+      "assistant": "Delhi is a fascinating and complex city! To give you the best information, could you tell me what you'd like to know about it? For example, are you interested in:\n\n*   **General information?** (e.g., history, geography, culture, population)\n*   **Things to do and see?** (e.g., historical sites, museums, markets, restaurants)\n*   **Travel information?** (e.g., how to get there, where to stay, transportation within the city)\n*   **Current events or news?**\n*   **Something else entirely?**\n\nTell me what you're curious about, and I'll do my best to help!"
+    },
+    {
+      "user": "can you tell me the best food place in delhi>",
+      "assistant": "Oh, Delhi! You've come to the right place for food recommendations. It's a foodie paradise! To give you the *absolute best* recommendation, I need a little more information. What are you in the mood for?\n\nFor example, are you looking for:\n\n*   **Street food?** (Think chaat, gol gappe, kebabs)\n*   **Fine dining?** (Something fancy with a great ambiance)\n*   **A specific cuisine?** (North Indian, South Indian, Mughlai, Chinese, Italian, etc.)\n*   **Something budget-friendly?**\n*   **A place with a great view or atmosphere?**\n\nIn the meantime, here are a few popular and highly-regarded places across different categories to get you started:\n\n*   **Karim's (Near Jama Masjid):** Legendary for its Mughlai cuisine, especially its kebabs and biryani. A Delhi institution!\n*   **Indian Accent (The Lodhi):** If you're looking for a modern and innovative take on Indian cuisine, this is the place. It's definitely on the pricier side.\n*   **Paranthe Wali Gali (Chandni Chowk):** A whole lane dedicated to parathas! A must-try for a classic Delhi experience.\n*   **Gulati (Pandara Road Market):** Known for its North Indian dishes, especially its butter chicken and dal makhani.\n*   **Andhra Bhavan Canteen (Ashoka Road):** For delicious and authentic South Indian food at incredibly affordable prices.\n\nTell me a bit more about what you're craving, and I can give you a more tailored recommendation! \ud83d\ude0a"
+    },
+    {
+      "user": "weather in delhi",
+      "assistant": "In delhi, it's haze and around 23\u00b0C."
+    },
+    {
+      "user": "add jogging if it doesn\u2019t rain tomorrow in Delhi",
+      "assistant": "Task 'jogging if it doesn\u2019t rain tomorrow in Delhi' added successfully!"
+    },
+    {
+      "user": "delete all tasks",
+      "assistant": "Couldn't find a task matching 'all tasks'."
+    },
+    {
+      "user": "whats the weather in guwahati",
+      "assistant": "In guwahati, it's mist and around 25\u00b0C."
+    },
+    {
+      "user": "weather in delhi",
+      "assistant": "In delhi, it's haze and around 23\u00b0C."
+    },
+    {
+      "user": "add jogging if it doesn\u2019t rain tomorrow in Delhi",
+      "assistant": "Weather looks fine in tomorrow in Delhi. Task 'jogging if it doesn\u2019t rain tomorrow in Delhi' added successfully!"
+    },
+    {
+      "user": "add jogging if it doesn\u2019t rain tomorrow in Delhi",
+      "assistant": "Weather looks fine in tomorrow in Delhi. Task 'jogging' added successfully!"
     }
   ],
   "tasks_added": [],
-  "last_saved": "2025-11-04T22:16:11.004565"
+  "last_saved": "2025-11-04T23:23:26.969443"
 }
