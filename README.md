@@ -5,7 +5,7 @@ Built with **LangChain**, **Gemini**, and external APIs like **Todoist** and **W
 
 ---
 
-## 🧭 Overview
+## Overview
 
 This project implements a **multi-domain conversational system** capable of open-ended dialogue and task-oriented reasoning.  
 It integrates a lightweight intent recognition mechanism with a modular action framework, enabling the agent to perform tasks such as managing to-do lists, checking weather, and handling conditional actions through natural language.
@@ -14,7 +14,7 @@ The architecture emphasizes the synergy between **rule-based NLP** and **LLM-dri
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
 - **Modular Architecture** – Decoupled design separating core intelligence from domain modules.  
 - **Intent Recognition and Routing** – Dynamic input classification directing queries to task, weather, or chat modules.  
@@ -24,7 +24,7 @@ The architecture emphasizes the synergy between **rule-based NLP** and **LLM-dri
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 ```
 main.py → core/agent.py → [modules/todoist_module | modules/weather_module]
@@ -41,7 +41,7 @@ The assistant acts as a routing system where:
 
 ---
 
-## 🔬 Technical Implementation
+## Technical Implementation
 
 - **Intent Recognition:** Regex-based detection for task and weather intents with LLM fallback for open conversation.  
 - **Dialogue Management:** Context persistence via structured JSON memory.  
@@ -50,7 +50,7 @@ The assistant acts as a routing system where:
 
 ---
 
-## 🧩 Requirements
+## Requirements
 
 - Python ≥ 3.8  
 - LangChain, LangChain Google GenAI, Requests, python-dotenv  
@@ -76,7 +76,7 @@ python main.py
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 ai-assistant/
@@ -94,7 +94,7 @@ ai-assistant/
 
 ---
 
-## 📚 Research Relevance
+## Research Relevance
 
 This project illustrates the integration of theoretical NLP principles with practical AI agent development.  
 It bridges token-level processing, semantic embeddings, and prompt-based reasoning through LangChain's orchestration of Gemini's LLM.  
@@ -102,7 +102,7 @@ By combining deterministic routing with probabilistic reasoning, the system exem
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 * Dynamic plugin system for new domains (news, calendar, dictionary)
 * Advanced semantic memory using vector embeddings
@@ -112,7 +112,7 @@ By combining deterministic routing with probabilistic reasoning, the system exem
 
 ---
 
-## 🏛 Acknowledgments
+## Acknowledgments
 
 Developed as part of the NLP Course Project under the Department of Computer Science,  
 Indian Institute of Information Technology Guwahati.  
@@ -120,6 +120,6 @@ Built with open APIs from LangChain, Gemini, and Todoist.
 
 ---
 
-## ⚖️ License
+## License
 
 Licensed under the MIT License for educational and research purposes.
